@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="style_ed.staq.css"/>
+<title>Единична стая</title>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<div class="w3-container">
+  <h1>Единична стая</h1><hr><br><br>
+ 
+</div>
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="images/edinichna_staq.jpg" style="width:100%">
+  
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/edinichna_staq1.jpg" style="width:100%" >
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/edinichna_staq2.jpg" style="width:100%">
+  
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/edinichna_staq3.jpg" style="width:100%">
+  
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+<br><br>
+<h1>Детайли</h1><hr>
+<center>
+<li>Безжичен Интернет</li>
+<li>Баня</li>
+<li>Кабелна телевизия</li>
+<li>Бюро</li>
+<li> Централна климатизация с индивидуален контрол</li>
+<li>Телефон</li>
+
+
+</center>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+
+</body>
+
+
+
+</html>

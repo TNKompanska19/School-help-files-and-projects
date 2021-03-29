@@ -1,0 +1,125 @@
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height:100vh;
+}
+#navbar {
+    overflow: hidden;
+    width:100%;
+    background-color: #855041 ;
+    height:70px;
+   
+}
+#active{
+    color:black;
+    background-color: #7c4b3d;
+    box-shadow: 1px 2px #5b372d inset;
+}
+ul{
+    margin-top: 3px;
+    list-style-type: none;
+}
+#left{
+    margin-right: 5%;
+}
+#right{
+    margin-left: 32%;
+}
+#title{
+    color:black;
+ font-family: 'Castoro', serif;
+    margin-left:20%;
+    text-align: center;
+    border:none;
+    font-size: 1.5vw;
+    font-weight: bold;
+    background-color:#855041 ;
+}
+#title:hover{
+    background-color:#855041 ;
+    box-shadow: none;
+}
+
+ul li{
+    background-color: #b1725f;
+    display: inline-block;
+    border-radius: 10px;
+    border: solid black 1px;
+    padding: 10px 20px;
+    font-family: 'Castoro', serif;
+    
+}
+ul li:hover{
+    cursor: pointer;
+    color:#fff;
+    background-color: #7c4b3d;
+    box-shadow: 1px 2px #5b372d inset;
+}
+ul li a{
+    color:black;
+    text-decoration: none;
+}
+h1, h2{
+margin-right: 20%;
+    color:white;
+}
+.deliver
+{
+    text-align: center;
+}
+.menu{
+    text-align: center;
+}
+
+.row{
+    margin-top: 10%;
+    margin-left:10%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+   
+  }
+.row:after {
+    display: table;
+    clear: both;
+}
+input[type=text]{
+    width: 80%; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  input[type=submit]
+  {
+      margin-left:32%;
+      border: solid black 1px;
+      padding: 18px 50px;
+      background-color: #b1725f;
+      border-radius: 10px;
+      font-size: 15px;
+
+  }
+  input[type=submit]:hover{
+    cursor: pointer;
+    color:#fff;
+    background-color: #7c4b3d;
+    box-shadow: 1px 2px #5b372d inset;
+  }
+  .back-button{
+    margin-left: 28%;
+    margin-top: 1%;
+}

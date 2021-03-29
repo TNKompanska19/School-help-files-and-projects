@@ -1,0 +1,108 @@
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url("../images/restaurant.jpg");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+ul{
+    
+    padding-left: 52%;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	padding: 5px 23px;
+    transition: 0.6s ease;
+    color:whitesmoke;
+    font-size: 25px;
+    border-radius: 15px;
+}
+ul li a:hover{
+	background-color: #fff;
+    color:#000;
+    box-shadow: 3px 3px 3px 3px #8080c0 ;
+}
+ul li.active a{
+	background-color: #fff;
+	color:#000;
+}
+.navbar{
+    width: 100%;
+}
+#active{
+    background-color: #fff;
+    color:#000;
+    box-shadow: 3px 3px 3px 3px #8080c0 ;
+}
+.menu{
+    width: 40%;
+    position: absolute;
+    top:15%;
+    left:30%;
+    background: linear-gradient(to right,#d15138, #d38d76);
+    height: 800px;
+    border-radius: 50px;
+    margin: auto;
+     
+}
+table{
+    width:85%;
+    
+}
+th,td{
+   
+    text-align: center;
+}
+.table1{
+    position: absolute;
+   
+    top:15%;
+}
+.table2{
+    position: absolute;
+   
+    top:36%;
+}
+.table3{
+    position: absolute;
+    
+    top:60%;
+}
+.table4{
+    position: absolute;
+    
+    top:80%;
+}
+
+.h4{
+    position: absolute;
+    top:73%;
+    left:40%;
+}
+.h3{
+    position: absolute;
+    top:53%;
+    left:40%;
+}
+.h2{
+    position: absolute;
+    top:28%;
+    left:42%;
+}
+.h1{
+    position: absolute;
+    top:7%;
+    left:44%;
+}
+h1{
+    text-align: center;
+    color:color;
+}
+
